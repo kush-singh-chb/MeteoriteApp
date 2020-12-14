@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="5dp"
+    android:orientation="horizontal"
+    app:layout_constraintCircleRadius="25dp">
+
+
+    <TextView
+        android:id="@+id/meteoriteNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:gravity="start"
+        android:padding="@dimen/padding"
+        tools:text="Meteorite Name: " />
+
+    <TextView
+        android:id="@+id/meteoriteWeightView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:gravity="end"
+        android:padding="@dimen/padding"
+        tools:text="123456789" />
+
+</LinearLayout>
